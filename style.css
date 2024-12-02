@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Changed background to black */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background: #fff;
+    color: #333;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.instructions {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.requirements {
+    text-align: left;
+    font-size: 0.9em;
+    margin: 10px 0 20px;
+    padding-left: 20px;
+}
+
+.requirements li {
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#progress {
+    height: 100%;
+    width: 0;
+    background: red;
+    transition: width 0.3s ease;
+    border-radius: 5px;
+}
+
+#strengthMessage {
+    font-size: 1.1em;
+    font-weight: bold;
+}
